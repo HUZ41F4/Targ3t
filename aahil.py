@@ -35,7 +35,7 @@ time.sleep(0.8)
 print '\n\nCracking '+user+' Now...'
 
 time.sleep(1)
-print '\n###############BlackMafia LoveHacker##############\n'
+print 'jalan("\033[1;96mIM NOT RESPONSIBLE FOR ANY MISS USE - AAHIL
 for password in wordlist:
     if password == '' or password == ' ':
         pass
